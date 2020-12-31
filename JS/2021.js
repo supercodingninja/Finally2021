@@ -45,6 +45,7 @@ function viewSlide (n) {
 //   setTimeout(viewSlide , 3000); // Change image every 3 seconds
 // }
 
+// Ref. https://codepen.io/craigstroman/pen/aOyRYx //
 var audioPlayer = function() {
   "use strict";
 
@@ -381,8 +382,10 @@ var audioPlayer = function() {
     _setTrack();
   };
 
-  // Ref. https://codepen.io/craigstroman/pen/aOyRYx //
-  /* Updates the time for the song being played. */
+  /**
+   * Updates the time for the song being played.
+   *
+   **/
   var _trackTimeChanged = function() {
     var currentTimeBox = document.querySelector(".player .info-box .track-info-box .audio-time .current-time");
     var currentTime = audio.currentTime;
