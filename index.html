@@ -13,10 +13,89 @@
 
     <body style="color: white; background-image: url(Media/smaller.webp); background-repeat: no-repeat; background-size: 2250px 1080px;">
 
-        <audio controls autoplay style="display:none">
-                <source src="Auld Lang Syne.mp3" type="audio/mpeg">
-                <!-- Your browser does not support the audio element. -->
-        </audio>
+        <!-- <embed src="Media/newworldson_SeasonsofHope_9_ThereIsaWay_1.mp3.crdownload" loop="true" autostart="true" width="2" height="0"> --> <!--vYour browser does not support the audio element. -->
+
+            <!-- Ref. https://codepen.io/craigstroman/pen/aOyRYx -->
+            <div class="container"> 
+
+                <audio id="audio" preload="none" tabindex="0">
+                              <source src="Media/newworldson_SeasonsofHope_9_ThereIsaWay_1.mp3" data-track-number="1" />
+                              <source src="Media/11 - Rise Up.mp3" data-track-number="2" />
+                              
+                              Your browser does not support HTML5 audio.
+                          </audio>
+              
+                <div class="player">
+              
+                  <div class="large-toggle-btn">
+                    <i class="large-play-btn"><span class="screen-reader-text">Large toggle button</span></i>
+                  </div>
+                  <!-- /.play-box -->
+              
+                  <div class="info-box">
+                    <div class="track-info-box">
+                      <div class="track-title-text"></div>
+                      <div class="audio-time">
+                        <span class="current-time">00:00</span> /
+                        <span class="duration">00:00</span>
+                      </div>
+                    </div>
+                    <!-- /.info-box -->
+              
+                    <div class="progress-box">
+                      <div class="progress-cell">
+                        <div class="progress">
+                          <div class="progress-buffer"></div>
+                          <div class="progress-indicator"></div>
+                        </div>
+                      </div>
+                    </div>
+              
+                  </div>
+                  <!-- /.progress-box -->
+              
+                  <div class="controls-box">
+                    <i class="previous-track-btn disabled"><span class="screen-reader-text">Previous track button</span></i>
+                    <i class="next-track-btn"><span class="screen-reader-text">Next track button</span></i>
+                  </div>
+                  <!-- /.controls-box -->
+              
+                </div>
+                <!-- /.player -->
+              
+                <div class="play-list">
+              
+                  <div class="play-list-row" data-track-row="1">
+                    <div class="small-toggle-btn">
+                      <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                    </div>
+                    <div class="track-number">
+                      1.
+                    </div>
+                    <div class="track-title">
+                        <a class="playlist-track" href="#" data-play-track="2">New World Son &amp; There Is A Way - Seasons of Hope</a>
+                    </div>
+                  </div>
+                  <div class="play-list-row" data-track-row="2">
+                    <div class="small-toggle-btn">
+                      <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                    </div>
+                    <div class="track-number">
+                      2.
+                    </div>
+                    <div class="track-title">
+                      <a class="playlist-track" href="#" data-play-track="2">Andrea Day &amp; Rise Up - Cheers to the Fall</a>
+                    </div>
+                  </div>
+                  
+              
+                <div>Music from the <a href="https://open.spotify.com/album/4J0tJ9xx3zHSgM0Xti6Bwn?highlight=spotify:track:22hjY9GPL53RAWK06eNrvr" target="_blank">"There Is A Way" at Spotify®</a></div> &nbsp; <a href="https://open.spotify.com/album/6Blubl1glavmervPJa3QVs?highlight=spotify:track:0tV8pOpiNsKqUys0ilUcXz" target="_blank">"Rise Up" at Spotify®</a>
+              </div>
+
+        <!-- <audio controls autoplay style="display:inline-flex">
+                <source src="Media/newworldson_SeasonsofHope_9_ThereIsaWay_1.mp3" type="audio/mpeg">
+                <source src="Media/11 - Rise Up.mp3" type="audio/mpeg"> -->
+        <!-- </audio> --> <!-- Your browser does not support the audio element. -->
         
         <!-- Slideshow container Ref. https://www.w3schools.com/howto/howto_js_slideshow.asp -->
         <div class="slide-container">
