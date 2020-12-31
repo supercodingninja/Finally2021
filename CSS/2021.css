@@ -1,4 +1,7 @@
-* {box-sizing:border-box}
+* {
+  box-sizing:border-box;
+  color: white;
+}
 
 /* slide container */
 .slide-container {
@@ -41,7 +44,7 @@
 
 /* Caption text */
 .caption {
-  color: #f2f2f2;
+  color: whi;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -52,7 +55,7 @@
 
 /* Number text (1/3 etc) */
 .slideNum {
-  color: #f2f2f2;
+  color: whi;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;

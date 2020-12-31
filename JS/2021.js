@@ -29,18 +29,18 @@ function viewSlide (n) {
 }
 
 
-// Autorun slides. //
-var sIndex = 0;
-viewSlide ();
+// Autorun slides. //  //HAVING TROUBLE WITH THIS SECTION: SHOWS ONLY ODD NUMBERS.
+// var sIndex = 0;
+// viewSlide ();
 
-function viewSlide () {
-  var i;
-  var slides = document.getElementsByClassName("slide");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  sIndex++;
-  if (sIndex > slides.length) {sIndex = 1}
-  slides[sIndex-1].style.display = "block";
-  setTimeout(viewSlide , 2000); // Change image every 2 seconds
-}
+// function viewSlide () {
+//   var i;
+//   var slides = document.getElementsByClassName("slide");
+//   for (i = 0; i < slides.length; i++) {
+//     slides[i].style.display = "none";
+//   }
+//   sIndex++;
+//   if (sIndex > slides.length) {sIndex = 1}
+//   slides[sIndex-1].style.display = "block";
+//   setTimeout(viewSlide , 3000); // Change image every 3 seconds
+// }
