@@ -3,6 +3,12 @@
   color: white;
 }
 
+a {
+  text-shadow: 0px 0px 10px rgba(255,255,255,0.6), 0px 0px 30px rgba(255,255,255,0.4), 0px 0px 50px rgba(255,255,255,0.3), 0px 0px 180px rgba(255,255,255,0.3);
+  color: rgba(255,255,255,0);
+  font: 65px 'ChunkFiveRegular';
+}
+
 /* slide container */
 .slide-container {
   max-width: 1000px;
@@ -96,7 +102,7 @@
   to {opacity: 1}
 }
 
-@import "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css";
 
 @mixin clearfix() {
   *zoom: 1;
